@@ -10,3 +10,8 @@
   color: white;
   font-family: var(--title-font);
 }
+
+.green {
+    color: var(--green-color);
+}
+
