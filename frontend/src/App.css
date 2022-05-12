@@ -6,3 +6,17 @@
   --title-font: "Caveat";
   --body-font: "Kanit", sans-serif;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: white;
+}

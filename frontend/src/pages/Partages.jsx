@@ -1,3 +1,10 @@
+import React from "react";
+import Users from "../components/Users";
+
 export default function Partages() {
-  return <div>Partages (Jeannine(s))</div>;
+  return (
+    <div>
+      <Users />
+    </div>
+  );
 }

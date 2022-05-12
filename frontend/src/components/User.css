@@ -1,0 +1,21 @@
+.encart-compte {
+  background: var(--yellow-color);
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.encart-img {
+  background-color: white;
+  width: 35vw;
+  border-radius: 100px;
+}
+.user-img {
+  text-align: center;
+  margin: 1.5rem;
+  width: 20vw;
+}
+
+.user-infos {
+  margin: 1rem;
+}
