@@ -18,7 +18,7 @@ export default function AnnonceForm() {
             onChange={(e) => setTitle(e.target.value)}
           />
         </label>
-        <h2 className="stringform">Ce que je souhaites partager</h2>
+        <h2 className="stringform">Ce que je souhaite partager</h2>
         <select name="option" id="share-select">
           <option value="">--Choisir une catégorie de partage--</option>
           <option value="">Artisanat</option>

@@ -1,7 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 
+.AdForm {
+    color: white;
+    font-family: var(--title-font);
+    font-size: 1rem;
+    background-color: var(--yellow-color);
+    width: 82vw;
+    height: 22rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.titleannonce {
+    color: var(--green-color);
+    font-family: var(--title-font);
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.descriptionannonce {
+    font-size: 1rem;
+    font-family: var(--body-font);
+    padding: 1rem;
+}
+
 .stringform {
-  font-family: "Kanit", sans-serif;
-  font-size: 10px;
-  color: var(--yellow-color);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.inputform {
+    width: 65vw;
+    height: 1.5rem;
+}
+
+.labelform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputformsubmit {
+    margin: 1rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: var(--green-color);
+    color: white;
+    font-family: var(--title-font);
+    font-size: 1.2rem;
 }
