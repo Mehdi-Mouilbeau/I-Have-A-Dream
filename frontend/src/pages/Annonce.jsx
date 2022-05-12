@@ -4,10 +4,12 @@ import "./Annonce.css";
 
 export default function Annonce() {
   return (
-    <div>
+    <div className="titleannonce">
       Déposer une annonce
       <div className="AdForm">
-        <h1>Petit texte expliquant le dépôt annonce</h1>
+        <h1 className="descriptionannonce">
+          Petit texte expliquant le dépôt annonce
+        </h1>
         <AnnonceForm />
       </div>
     </div>
