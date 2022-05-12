@@ -12,58 +12,58 @@ import reparation from "../assets/reparation.png";
 
 export default function Recherches() {
   return (
-    <section1>
+    <section>
       <h2>Que recherchez-vous ?</h2>
-      <section2 className="categories">
+      <div className="categories">
         <button type="button" className="recherchesbutton">
-          <img className="explorericon" src={paysage} alt="explorericon" />
+          <img className="recherchesicon" src={paysage} alt="explorericon" />
           Explorer la nature
         </button>
         <button type="button" className="recherchesbutton">
-          <img className="poticon" src={pot} alt="poticon" />
+          <img className="recherchesicon" src={pot} alt="poticon" />
           Faire des bocaux
         </button>
         <button type="button" className="recherchesbutton">
-          <img className="gardeningicon" src={gardening} alt="gardeningicon" />
+          <img className="recherchesicon" src={gardening} alt="gardeningicon" />
           Gérer son jardin
         </button>
         <button type="button" className="recherchesbutton">
-          <img className="threadeicon" src={thread} alt="threadicon" />
+          <img className="recherchesicon" src={thread} alt="threadicon" />
           Textile
         </button>
         <button type="button" className="recherchesbutton">
           <img
-            className="champignonsicon"
+            className="recherchesicon"
             src={champignons}
             alt="champignonsicon"
           />
           Cueillette
         </button>
         <button type="button" className="recherchesbutton">
-          <img className="argileicon" src={argile} alt="argileicon" />
+          <img className="recherchesicon" src={argile} alt="argileicon" />
           Artisanat
         </button>
         <button type="button" className="recherchesbutton">
           <img
-            className="energieverteicon"
+            className="recherchesicon"
             src={energieverte}
             alt="energieverteicon"
           />
           Energie Verte
         </button>
         <button type="button" className="recherchesbutton">
-          <img className="hygieneicon" src={hygiene} alt="hygieneicon" />
+          <img className="recherchesicon" src={hygiene} alt="hygieneicon" />
           Hygiène
         </button>
         <button type="button" className="recherchesbutton">
           <img
-            className="reparationicon"
+            className="recherchesicon"
             src={reparation}
             alt="reparationicon"
           />
           Réparations
         </button>
-      </section2>
-    </section1>
+      </div>
+    </section>
   );
 }
