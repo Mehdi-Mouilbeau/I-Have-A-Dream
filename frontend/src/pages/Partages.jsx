@@ -1,4 +1,4 @@
-import User from "../components/user";
+import User from "../components/User";
 // import data from "../assets/data";
 
 export default function Partages() {
