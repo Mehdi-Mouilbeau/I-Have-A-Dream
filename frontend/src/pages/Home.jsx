@@ -1,8 +1,10 @@
+import Video from "@components/video";
 import Recherches from "../components/Recherches";
 
 export default function Home() {
   return (
     <div>
+      <Video />
       <h2>I have a green and today, this earth smiles again!</h2>
       <p>{`Faire rêver l'écologie, c'est dès aujourd'hui... Ensemble.
       I have a green, c'est d'abord un état d'esprit, une envie de transmettre, de partager, de s'inspirer de notre passé pour faire miroiter un avenir plus optimiste.`}</p>
