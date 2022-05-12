@@ -1,6 +1,7 @@
-import Navbar from "@components/Navbar";
-import Footer from "@components/Footer";
 import Body from "@pages/Body";
+import Footer from "@components/Footer";
+import Navbar from "@components/Navbar";
+
 import "./App.css";
 
 function App() {
