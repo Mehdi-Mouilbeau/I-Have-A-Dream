@@ -1,3 +1,10 @@
+import User from "../components/user";
+// import data from "../assets/data";
+
 export default function Partages() {
-  return <div>Partages (Jeannine(s))</div>;
+  return (
+    <div>
+      <User />
+    </div>
+  );
 }
