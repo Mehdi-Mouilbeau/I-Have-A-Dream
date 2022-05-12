@@ -1,0 +1,12 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categories div {
+    background-color: greenyellow;
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem;
+}

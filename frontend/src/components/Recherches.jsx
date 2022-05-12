@@ -1,4 +1,5 @@
 import React from "react";
+import "./Recherches.css";
 
 export default function Recherches() {
   return (
