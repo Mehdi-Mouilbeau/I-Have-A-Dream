@@ -4,9 +4,12 @@
     justify-content: center;
 }
 
-.categories div {
-    background-color: greenyellow;
-    width: 8rem;
-    height: 8rem;
-    margin: 1rem;
+.recherchesbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    height: 5rem;
 }
