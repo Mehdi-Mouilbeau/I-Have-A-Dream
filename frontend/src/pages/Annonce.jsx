@@ -1,4 +1,5 @@
 import React from "react";
+import AnnonceForm from "../components/AnnonceForm";
 import Navbar from "../components/Navbar";
 
 export default function Annonce() {
@@ -6,7 +7,10 @@ export default function Annonce() {
     <div>
       <Navbar />
       Déposer une annonce
-      <div className="placeAnAd">ffff</div>
+      <div className="AdForm">
+        <p>Petit texte expliquant le dépôt annonce</p>
+        <AnnonceForm />
+      </div>
     </div>
   );
 }
