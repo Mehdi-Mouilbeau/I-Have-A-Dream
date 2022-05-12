@@ -3,20 +3,25 @@ import React from "react";
 import "./User.css";
 import userimg from "../assets/user.png";
 
-export default function User() {
+export default function UserDetail({
+  nom,
+  partage,
+  service,
+  disponibilité,
+  lieu,
+}) {
   return (
     <div>
-      <h1>Mon compte</h1>
       <div className="encart-compte">
         <div className="encart-img">
           <img className="user-img" src={userimg} alt="user-img" />
         </div>
         <div className="user-infos">
-          <p>Josiane</p>
-          <p>Type de partage: Blabla</p>
-          <p>Services proposées: Blabla</p>
-          <p>Disponibilités: Blabla</p>
-          <p>Lieu de rendez-vous: Blabla</p>
+          <p className="user-nom">{nom}</p>
+          <p className="user-partage">{partage}</p>
+          <p className="user-service">{service}</p>
+          <p className="user-disponibilité">{disponibilité}</p>
+          <p className="lieu">Lieu de rendez-vous: Blabla{lieu}</p>
           <button
             type="button"
             onClick={() =>
