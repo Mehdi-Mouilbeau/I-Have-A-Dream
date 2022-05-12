@@ -5,7 +5,6 @@ import Home from "@pages/Home";
 import Annonce from "@pages/Annonce";
 import Profil from "@pages/Profil";
 
-
 export default function Body() {
   return (
     <div>
