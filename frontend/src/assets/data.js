@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-export const stockData = [
+const data = [
   {
     id: 1,
     nom: "Roger",
@@ -255,3 +255,5 @@ export const stockData = [
     lieu: "Rue du rouleau",
   },
 ];
+
+export default data;
