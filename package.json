@@ -19,6 +19,7 @@
     "husky": "^7.0.0"
   },
   "dependencies": {
+    "react-player": "^2.10.1",
     "react-router-dom": "^5.3.1"
   }
 }
