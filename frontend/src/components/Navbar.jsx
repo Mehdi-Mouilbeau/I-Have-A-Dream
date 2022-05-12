@@ -8,7 +8,10 @@ export default function Navbar() {
       <div className="logo">
         <img src={logo} className="logo" alt="logo" />
       </div>
-      <h1 className="title"> I have a green ! </h1>
+      <h1 className="title">
+        {" "}
+        I have a <span class="green">green</span> !{" "}
+      </h1>
     </div>
   );
 }
