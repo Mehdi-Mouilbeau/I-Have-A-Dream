@@ -16,7 +16,6 @@ export default function Navbar() {
           I have a <span className="green">green</span> !{" "}
         </h1>
         </Link>
-      
     </div>
   );
 }
