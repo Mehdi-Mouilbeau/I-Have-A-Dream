@@ -10,12 +10,13 @@ export default function Navbar() {
         <div className="logo">
           <img src={logo} className="logo" alt="logo" />
         </div>
-        </Link>
-        <Link to="/"><h1 className="title">
+      </Link>
+      <Link to="/">
+        <h1 className="title">
           {" "}
           I have a <span className="green">green</span> !{" "}
         </h1>
-        </Link>
+      </Link>
     </div>
   );
 }
