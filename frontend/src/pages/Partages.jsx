@@ -1,10 +1,11 @@
-import User from "../components/user";
-// import data from "../assets/data";
+
+import React from "react";
+import Users from "../components/Users";
 
 export default function Partages() {
   return (
     <div>
-      <User />
+      <Users />
     </div>
   );
 }

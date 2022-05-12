@@ -10,7 +10,7 @@ export default function Navbar() {
       </div>
       <h1 className="title">
         {" "}
-        I have a <span class="green">green</span> !{" "}
+        I have a <span className="green">green</span> !{" "}
       </h1>
     </div>
   );
