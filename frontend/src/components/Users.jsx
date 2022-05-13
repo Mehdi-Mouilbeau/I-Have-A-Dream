@@ -18,6 +18,25 @@ export default function Users() {
       >
         Explorer la nature
       </button>
+      <button type="button" onClick={() => setFilterPartage("Energie verte")}>
+        Energie verte
+      </button>
+      <button type="button" onClick={() => setFilterPartage("Cueillette")}>
+        Cueillette
+      </button>
+      <button type="button" onClick={() => setFilterPartage("Hygiène")}>
+        Hygiène
+      </button>
+      <button
+        type="button"
+        onClick={() => setFilterPartage("Faire des bocaux")}
+      >
+        Faire des bocaux
+      </button>
+      <button type="button" onClick={() => setFilterPartage("Textile")}>
+        Textile
+      </button>
+
       <div className="uers-list">
         {data
           .filter((user) => user.partage.includes(filterPartage))
