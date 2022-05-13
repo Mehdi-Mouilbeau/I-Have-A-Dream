@@ -68,7 +68,8 @@ export default function Home() {
         </div>
         <div className="prez4">
           <h2 className="monTitre">Que recherchez-vous ?</h2>
-          <button type="button" className="categories" label="categories">
+          <button type="button" className="buttoncategories" label="categories">
+
             <Link to="./Partages">Voir nos catégories</Link>
           </button>
         </div>
