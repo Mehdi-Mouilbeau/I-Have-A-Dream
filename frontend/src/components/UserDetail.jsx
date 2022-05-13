@@ -21,7 +21,7 @@ export default function UserDetail({
           <p className="user-partage">{partage}</p>
           <p className="user-service">{service}</p>
           <p className="user-disponibilité">{disponibilité}</p>
-          <p className="lieu">Lieu de rendez-vous: Blabla{lieu}</p>
+          <p className="lieu">Lieu de rendez-vous:{lieu}</p>
           <button
             type="button"
             onClick={() =>
