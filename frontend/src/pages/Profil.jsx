@@ -1,10 +1,10 @@
 import React from "react";
-import Users from "../components/Users";
+import UserDetail from "../components/UserDetail";
 
 export default function Profil() {
   return (
     <div>
-      <Users />
+      <UserDetail />
     </div>
   );
 }

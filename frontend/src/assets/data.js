@@ -28,7 +28,7 @@ const data = [
     service: ["Entretenir un potager", " Prendre soin de ses poules"],
     disponibilité: ["Matin", " - Weekend"],
     lieu: "Place de l'église",
-    url:"https://cdn-icons.flaticon.com/png/512/3940/premium/3940421.png?token=exp=1652430072~hmac=cb9e52fcc2e5fa827b1188adcc34abf4",
+    url: "https://cdn-icons.flaticon.com/png/512/3940/premium/3940421.png?token=exp=1652430072~hmac=cb9e52fcc2e5fa827b1188adcc34abf4",
   },
   {
     id: 4,
@@ -193,7 +193,7 @@ const data = [
     service: ["Randonnée dans les marais"],
     disponibilité: ["Weekend", " - Après-midi"],
     lieu: "Rue du loup",
-    url:"https://cdn-icons.flaticon.com/png/512/3940/premium/3940421.png?token=exp=1652430072~hmac=cb9e52fcc2e5fa827b1188adcc34abf4",
+    url: "https://cdn-icons.flaticon.com/png/512/3940/premium/3940421.png?token=exp=1652430072~hmac=cb9e52fcc2e5fa827b1188adcc34abf4",
   },
   {
     id: 21,

@@ -1,6 +1,6 @@
 .encart-compte {
   background: var(--green-color);
-  
+
   width: 90vw;
   display: flex;
   flex-direction: column;
@@ -34,21 +34,21 @@
   font-family: var(--body-font);
   color: white;
   font-size: 1rem;
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 
 .user-disponibilité {
   font-family: var(--body-font);
   color: white;
   font-size: 1rem;
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 
 .lieu {
   font-family: var(--body-font);
   color: white;
   font-size: 1rem;
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 
 .buttonsubmit {
