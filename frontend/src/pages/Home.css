@@ -1,0 +1,140 @@
+h2,
+h3 {
+  font-family: var(--title-font);
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.prez1,
+.prez2,
+.prez3 {
+  text-align: center;
+  font-family: var(--body-font);
+}
+
+.prez1,
+.prez2,
+.prez3 p {
+  padding: 1rem;
+}
+
+.prez1 {
+  height: 16rem;
+}
+
+.prez2 {
+  background-color: #ecaa47;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.prez2 h3 {
+  color: white;
+}
+
+.prez3 {
+  height: 10rem;
+}
+
+.prez4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.backcolor {
+  background-color: #216a59;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.color {
+  color: #216a59;
+}
+
+.categories {
+  font-size: 1rem;
+  align-items: center;
+  background-color: #ecaa47;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #666677;
+  width: 10rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.prezicon1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.prezicon1 img {
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+
+.prezicon1 p {
+  font-family: var(--title-font);
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.environnemental {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.citoyen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prezicon2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.prezicon2 img {
+  height: 2rem;
+}
+
+.essentiel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fiable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
