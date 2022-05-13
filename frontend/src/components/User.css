@@ -1,21 +1,76 @@
 .encart-compte {
-  background: var(--yellow-color);
-  height: 30vh;
+  background: var(--green-color);
+
+  width: 90vw;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 1rem;
 }
 
-.encart-img {
-  background-color: white;
-  width: 35vw;
-  border-radius: 100px;
-}
 .user-img {
   text-align: center;
   margin: 1.5rem;
   width: 20vw;
 }
 
+.user-nom {
+  font-family: var(--title-font);
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.user-partage {
+  font-family: var(--body-font);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.user-service {
+  font-family: var(--body-font);
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.user-disponibilité {
+  font-family: var(--body-font);
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.lieu {
+  font-family: var(--body-font);
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.buttonsubmit {
+  border-radius: 1rem;
+  background-color: white;
+  color: var(--green-color);
+  font-family: var(--title-font);
+  font-size: 1.1rem;
+  width: 10rem;
+  height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .user-infos {
-  margin: 1rem;
+  background-color: #338f79;
+  width: 85vw;
+  border-radius: 1rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.alignbutton {
+  align-items: center;
 }
