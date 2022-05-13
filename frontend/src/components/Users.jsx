@@ -47,6 +47,7 @@ export default function Users() {
               service={user.service}
               disponibilité={user.disponibilité}
               lieu={user.lieu}
+              url={user.url}
             />
           ))}
         )
