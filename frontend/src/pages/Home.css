@@ -65,7 +65,7 @@ h3 {
   color: #216a59;
 }
 
-.categories {
+/* .categories {
   font-size: 1rem;
   align-items: center;
   background-color: #ecaa47;
@@ -74,7 +74,7 @@ h3 {
   width: 10rem;
   height: 3rem;
   margin-bottom: 2rem;
-}
+} */
 
 .prezicon1 {
   display: flex;
