@@ -6,8 +6,7 @@
   font-size: 1rem;
   background-color: var(--yellow-color);
   width: 82vw;
-  height: 22rem;
-
+  height: 65vh;
   border-radius: 2rem;
   margin: 1rem;
 }
@@ -18,6 +17,7 @@
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
+  height: 80vh;
 }
 
 .descriptionannonce {

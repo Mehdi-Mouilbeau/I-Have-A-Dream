@@ -1,5 +1,4 @@
 import Video from "@components/video";
-import Recherches from "../components/Recherches";
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
       <p>{`Apprendre à vivre mieux, à faire toi-même, ça t'intéresse? I have a green te met en relation avec des personnes près de chez toi qui ont un savoir-faire, une pratique écologique à partager ou tout simplement un moment de communion avec la nature à vivre avec toi.`}</p>
       <h3>A quel prix?</h3>
       <p>{`Ici, c'est gratuit. On apprend, on s'enrichit autrement et la planète en profite autant!`}</p>
-      <Recherches />;
     </div>
   );
 }

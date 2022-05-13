@@ -24,3 +24,7 @@
   height: 3rem;
   background-color: var(--beige-color);
 }
+
+footer {
+  margin-top: 2rem;
+}
