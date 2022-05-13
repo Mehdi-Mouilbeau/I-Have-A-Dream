@@ -1,3 +1,10 @@
+import React from "react";
+import Recherches from "../components/Recherches";
+
 export default function Partages() {
-  return <div>Partages (Jeannine(s))</div>;
+  return (
+    <div>
+      <Recherches />
+    </div>
+  );
 }
