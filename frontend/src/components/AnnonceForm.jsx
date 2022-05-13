@@ -31,12 +31,21 @@ export default function AnnonceForm() {
           <option value="">Textile</option>
           <option value="">Réparations</option>
         </select>
+        <h2 className="stringform">Lieu de rendez-vous</h2>
+        <input
+          className="inputform"
+          id="name"
+          type="text"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        />
         <label className="labelform" htmlFor="share">
           <h2 className="stringform">Détail de mon annonce</h2>
-          <input
-            className="inputform"
+          <textarea
+            className="inputformtext"
             id="firstName"
             type="text"
+            placeholder="Votre texte"
             value={share}
             onChange={(e) => setShare(e.target.value)}
           />
