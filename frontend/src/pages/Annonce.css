@@ -6,9 +6,11 @@
   font-size: 1rem;
   background-color: var(--yellow-color);
   width: 82vw;
-  height: 65vh;
+  min-height: 70vh;
   border-radius: 2rem;
   margin: 1rem;
+  margin: auto;
+  margin-top: 10px;
 }
 
 .titleannonce {
@@ -39,6 +41,8 @@
 .inputformtext {
   width: 65vw;
   height: 5rem;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .labelform {
@@ -56,4 +60,8 @@
   color: white;
   font-family: var(--title-font);
   font-size: 1.2rem;
+}
+
+.send {
+  font-size: 30px;
 }
