@@ -17,10 +17,11 @@ export default function Recherches() {
   const [filterPartage, setFilterPartage] = useState("");
   return (
     <section>
-      <h2>Que recherchez-vous ?</h2>
-      <p>
-        Parcourez les différents catégories pour découvrir le greener avec qui
-        vous allez partager
+      <h2 className="itemSearch">Que recherchez-vous ?</h2>
+      <p className="presentationSearch">
+        Parcourez les différents catégories pour découvrir le{" "}
+        <span className="greener">greener</span> avec qui vous allez partager 🤗
+        !
       </p>
       <div className="categories">
         <button

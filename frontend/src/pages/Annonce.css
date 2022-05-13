@@ -16,10 +16,17 @@
 .titleannonce {
   color: var(--green-color);
   font-family: var(--title-font);
-  font-size: 2rem;
+  /* font-size: 2rem; */
   text-align: center;
   padding: 1rem;
   height: 80vh;
+}
+
+.titleDepotannonce {
+  color: var(--green-color);
+  font-family: var(--title-font);
+  font-size: 16px;
+  text-align: center;
 }
 
 .descriptionannonce {

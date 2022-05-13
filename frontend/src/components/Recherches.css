@@ -47,6 +47,27 @@
   height: 5rem;
 }
 
+.itemSearch {
+  color: var(--green-color);
+  font-family: var(--title-font);
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.presentationSearch {
+  font-family: var(--body-font);
+  margin: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.greener {
+  color: var(--green-color);
+  font-weight: 800;
+  font-size: 20px;
+
 h2 {
   text-align: center;
 }
