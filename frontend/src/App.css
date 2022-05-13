@@ -21,10 +21,10 @@ a:hover {
   color: white;
 }
 
-.App{
+.App {
   display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow-y:scroll;
-    min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  min-height: 100vh;
 }
