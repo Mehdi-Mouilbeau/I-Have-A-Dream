@@ -2,7 +2,7 @@ import React from "react";
 import UserDetail from "../components/UserDetail";
 
 export default function Profil() {
-  const myStyle= {
+  const myStyle = {
     color: "var(--green-color",
     padding: "10px",
     fontFamily: "var(--title-font)",
@@ -10,9 +10,7 @@ export default function Profil() {
   };
   return (
     <div>
-      <h1 style={myStyle}>
-        Mon compte
-      </h1>
+      <h1 style={myStyle}>Mon compte</h1>
       <UserDetail
         url="https://zupimages.net/up/22/19/meii.png"
         nom="André"

@@ -2,10 +2,12 @@ h2,
 h3 {
   font-family: var(--title-font);
   padding: 1rem;
+  color: var(--green-color);
 }
 
 h3 {
   font-size: 1.25rem;
+  color: var(--green-color);
 }
 
 .prez1,
