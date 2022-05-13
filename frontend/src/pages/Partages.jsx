@@ -1,10 +1,10 @@
 import React from "react";
-import Users from "../components/Users";
+import Recherches from "../components/Recherches";
 
 export default function Partages() {
   return (
     <div>
-      <Users />
+      <Recherches />
     </div>
   );
 }

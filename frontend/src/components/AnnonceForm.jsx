@@ -4,6 +4,11 @@ import "../pages/Annonce.css";
 export default function AnnonceForm() {
   const [title, setTitle] = useState("");
   const [share, setShare] = useState("");
+  const [send, setSend] = useState(false);
+
+  function handleSend() {
+    setSend(!send);
+  }
 
   return (
     <div className="formContainer">
@@ -45,12 +50,15 @@ export default function AnnonceForm() {
             className="inputformtext"
             id="firstName"
             type="text"
-            placeholder="Votre texte"
+            placeholder="Mon annonce"
             value={share}
             onChange={(e) => setShare(e.target.value)}
           />
         </label>
-        <input className="inputformsubmit" type="submit" value="Envoyer" />
+        <button className="inputformsubmit" type="button" onClick={handleSend}>
+          Envoyer
+        </button>
+        {send ? <p className="send">Annonce bien déposée !</p> : ""}
       </form>
     </div>
   );
