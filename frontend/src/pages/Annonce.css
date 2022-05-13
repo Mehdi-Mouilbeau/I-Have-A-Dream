@@ -6,7 +6,8 @@
   font-size: 1rem;
   background-color: var(--yellow-color);
   width: 82vw;
-  height: 30rem;
+  height: 22rem;
+
   border-radius: 2rem;
   margin: 1rem;
 }
@@ -33,11 +34,13 @@
 .inputform {
   width: 65vw;
   height: 1.5rem;
+
 }
 
 .inputformtext {
   width: 65vw;
   height: 5rem;
+
 }
 
 .labelform {
