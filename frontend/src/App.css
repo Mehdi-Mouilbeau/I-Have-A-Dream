@@ -20,3 +20,11 @@ a:hover {
   text-decoration: none;
   color: white;
 }
+
+.App{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y:scroll;
+    min-height: 100vh;
+}
