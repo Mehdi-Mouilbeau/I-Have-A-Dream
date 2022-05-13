@@ -8,7 +8,9 @@ export default function Home() {
       <Video />
       <div className="présentation">
         <div className="prez1">
-          <h2>I have a green and today, this earth smiles again!</h2>
+          <h2 className="monTitre">
+            I have a green and today, this earth smiles again!
+          </h2>
           <p>
             Faire <span className="bold">rêver</span> l&apos;écologie,
             c&apos;est dès aujourd&apos;hui...{" "}
@@ -57,7 +59,7 @@ export default function Home() {
           </p>
         </div>
         <div className="prez3">
-          <h3>A quel prix?</h3>
+          <h3 className="monTitre">A quel prix?</h3>
           <p>
             Ici, c&apos;est <span className="italic">gratuit</span>. On apprend,
             on s&apos;enrichit autrement et la{" "}
@@ -65,8 +67,9 @@ export default function Home() {
           </p>
         </div>
         <div className="prez4">
-          <h2>Que recherchez-vous ?</h2>
+          <h2 className="monTitre">Que recherchez-vous ?</h2>
           <button type="button" className="buttoncategories" label="categories">
+
             <Link to="./Partages">Voir nos catégories</Link>
           </button>
         </div>
