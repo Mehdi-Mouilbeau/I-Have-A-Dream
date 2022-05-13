@@ -2,10 +2,19 @@ import React from "react";
 import UserDetail from "../components/UserDetail";
 
 export default function Profil() {
+  const myStyle= {
+    color: "var(--green-color",
+    padding: "10px",
+    fontFamily: "var(--title-font)",
+    textAlign: "center",
+  };
   return (
     <div>
-      <h1>Mon compte</h1>
+      <h1 style={myStyle}>
+        Mon compte
+      </h1>
       <UserDetail
+        url="https://zupimages.net/up/22/19/meii.png"
         nom="André"
         partage={["Textile ", "- Artisanat"]}
         service={[
