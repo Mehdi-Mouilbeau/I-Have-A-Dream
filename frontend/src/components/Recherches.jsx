@@ -11,6 +11,7 @@ import argile from "../assets/argile.png";
 import energieverte from "../assets/energieverte.png";
 import hygiene from "../assets/hygiene.png";
 import reparation from "../assets/reparation.png";
+import ScrollButton from "./ScrollButton";
 
 export default function Recherches() {
   const [filterPartage, setFilterPartage] = useState("");
@@ -112,6 +113,7 @@ export default function Recherches() {
           .filter((user) => user.partage.includes(filterPartage))
           .map((user) => (
             <UserDetail
+              url={user.url}
               nom={user.nom}
               partage={user.partage}
               service={user.service}
@@ -119,6 +121,7 @@ export default function Recherches() {
               lieu={user.lieu}
             />
           ))}
+        <ScrollButton />
       </div>
     </section>
   );
